@@ -12,6 +12,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    min-width: 160px;
     background-color: #49d0b0;
 }
 
@@ -102,4 +103,23 @@
 }
 .ice{
     background-color: rgb(151, 209, 211);
+}
+
+.pokemon-seletor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-seletor .seletor{
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 2px solid white;
+    color: rgb(172, 172, 172);
+    border-radius: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.pokemon-seletor .seletor:hover{
+    opacity: 1;
 }

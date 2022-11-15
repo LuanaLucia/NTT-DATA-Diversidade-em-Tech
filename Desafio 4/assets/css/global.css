@@ -4,21 +4,25 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #79a5ff;
+    display: flex;
+    width:100%;
 }
 
 .content {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     padding: 1rem;
-    background-color: #fff;
+    margin: 1rem auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.788);
 }
 
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
         height: auto;
-        margin: 1rem auto;
         border-radius: 1rem;
     }
 }
